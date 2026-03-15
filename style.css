@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+body {
+    background-image: linear-gradient(#00c0ff,#000000);
+    height:100vh;
+    width:100%;
+      font-family: "Mystery Quest", system-ui;
+}
+h2{
+    text-transform: uppercase;
+    font-size:60px;
+    border-bottom:2px solid black;  
+}
+h3{ text-transform: uppercase;
+    font-size:50px;
+    margin: auto;
+    text-align: center;
+   } 
+#main{
+    width:80%;
+    border-left:5px solid black;
+    border-bottom:5px solid black;
+    height:70vh;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#main div{
+    width:33%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:35px;
+    text-transform: uppercase;
+    background:#00ff2d;
+      transition:2s;
+}
+#egy{
+    height:1116px;
+}
+
+ #pel{
+    height:50px;
+}
+#mor{
+    height:380px;
+}
+#egy:hover{
+    background:url("egy.jpg");
+      background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attchment: fixed;
+}
+
+#pel:hover{
+    background:url("pel.jpg");
+      background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attchment: fixed;
+}
+#mor:hover{
+    background:url("mor.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attchment: fixed;
+     color: white;
+}
+@media(max-width:600px){
+  h2,h3{
+      font-size:32px;
+  } 
+#egy{
+    height:400px;
+}
+
+ #pel{
+    height:25px;
+}
+#mor{
+    height:190px;
+} 
+#main div{
+    font-size:10px;
+    width:100;
+}
+}
+
+
